@@ -1,0 +1,17 @@
+{
+    "servers": [
+        {
+            "name": "emoji-usage",
+            "transport": "stdio",
+            "command": "uv",
+            "args": [
+                "run",
+                "--with",
+                "mcp[cli]",
+                "mcp",
+                "run",
+                "mcp_servers/emoji-use-mcp/server.py"
+            ]
+        }
+    ]
+}
