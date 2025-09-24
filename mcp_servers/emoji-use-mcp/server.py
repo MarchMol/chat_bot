@@ -75,5 +75,7 @@ def get_appropriate_emoji(query: EmojiUsage) -> list[str]:
     rslt = res_tools.predict_emoji(query)
     return rslt
 
+if __name__ == "__main__":
+    mcp.run()
 # @mcp.resource()
 # @mcp.prompt()
