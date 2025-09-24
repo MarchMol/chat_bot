@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "anthropic>=0.66.0",
+    "gitpython>=3.1.45",
     "importlib>=1.0.4",
     "mcp[cli]>=1.13.1",
     "pandas>=2.3.2",

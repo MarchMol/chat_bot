@@ -1,6 +1,29 @@
 {
     "servers": [
         {
+            "name": "remote_echo",
+            "command": "ssh",
+            "args": [
+                "-i",
+                "/home/jps/.ssh/id_gcp",
+                "-T",
+                "sol22102@34.173.88.4",
+                "/home/sol22102/remote-echo-server/RemoteServerMCP/.venv/bin/python",
+                "/home/sol22102/remote-echo-server/RemoteServerMCP/server.py"
+            ]
+        },
+        {
+            "name": "git_server",
+            "transport": "stdio",
+            "command": "python",
+            "args": ["mcp_servers/github/git_server.py"]
+        },
+        {
+            "name": "filesystem",
+            "command": "python", 
+            "args": ["mcp_servers/filesystem/filesystem_server.py", "C:/Users/JM/Documents/Redes/chat_bot"]
+        },
+        {
             "name": "emoji-usage",
             "transport": "stdio",
             "command": "uv",
@@ -11,6 +34,23 @@
                 "mcp",
                 "run",
                 "mcp_servers/emoji-use-mcp/server.py"
+            ]
+        },
+        {
+            "name": "sleep_coach",
+            "transport": "stdio",
+            "command": "python",
+            "args": [
+                "mcp_servers/sleep_coach/sleep_coach.py"
+            ]
+        },
+        {
+            "name": "movie_server",
+            "transport": "stdio",
+            "command": "python",
+            "args": [
+                "mcp_servers/Movies_ChatBot/movie_server.py",
+                "stdio"
             ]
         }
     ]
