@@ -1,7 +1,2692 @@
 [
     {
-        "time": "2025-09-07 20:13:10.329377",
-        "type": "Online",
-        "payload": "Server [emoji-usage] is online as Subprocces (pid=20456)"
+        "time": "2025-09-25 20:16:43.994129",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:16:43.995133",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:16:44.009089",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 26604"
+    },
+    {
+        "time": "2025-09-25 20:16:46.026180",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:16:46.107360",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:16:46.120355",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:16:46.134359",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:16:46.148359",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:16:46.174871",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:16:47.199915",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:16:47.651747",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:16:47.652787",
+        "type": "DETECTED",
+        "payload": "Server [filesystem] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:16:47.672754",
+        "type": "INIT",
+        "payload": "Server [filesystem] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:16:48.695585",
+        "type": "DEBUG",
+        "payload": "Server [filesystem] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:16:48.943600",
+        "type": "ONLINE",
+        "payload": "Server [filesystem] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:16:48.945599",
+        "type": "DETECTED",
+        "payload": "Server [emoji-usage] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:16:48.977599",
+        "type": "INIT",
+        "payload": "Server [emoji-usage] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:16:50.007358",
+        "type": "DEBUG",
+        "payload": "Server [emoji-usage] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:16:51.501720",
+        "type": "ONLINE",
+        "payload": "Server [emoji-usage] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:16:51.502763",
+        "type": "DETECTED",
+        "payload": "Server [sleep_coach] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:16:51.524727",
+        "type": "INIT",
+        "payload": "Server [sleep_coach] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:16:52.544434",
+        "type": "DEBUG",
+        "payload": "Server [sleep_coach] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:16:52.935431",
+        "type": "ONLINE",
+        "payload": "Server [sleep_coach] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:16:52.937440",
+        "type": "DETECTED",
+        "payload": "Server [movie_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:16:52.954443",
+        "type": "INIT",
+        "payload": "Server [movie_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:16:53.986363",
+        "type": "DEBUG",
+        "payload": "Server [movie_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:16:55.091096",
+        "type": "ONLINE",
+        "payload": "Server [movie_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:16:55.164481",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:16:55.178481",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:16:55.196302",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:16:55.219514",
+        "type": "TOOLS",
+        "payload": "Loaded 10 tools from MCP server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:16:55.278692",
+        "type": "TOOLS",
+        "payload": "Loaded 8 tools from MCP server [emoji-usage]"
+    },
+    {
+        "time": "2025-09-25 20:16:55.294546",
+        "type": "TOOLS",
+        "payload": "Loaded 5 tools from MCP server [sleep_coach]"
+    },
+    {
+        "time": "2025-09-25 20:16:55.317591",
+        "type": "TOOLS",
+        "payload": "Loaded 6 tools from MCP server [movie_server]"
+    },
+    {
+        "time": "2025-09-25 20:17:34.313825",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:17:34.315827",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:17:34.337828",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 17772"
+    },
+    {
+        "time": "2025-09-25 20:17:36.363671",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:17:36.896889",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:17:36.900888",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:17:36.921880",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:17:36.940893",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:17:36.970908",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:17:37.996345",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:17:38.295768",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:17:38.370067",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:17:38.384074",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:17:38.399746",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:18:19.124677",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:18:19.125678",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:18:19.143678",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 4848"
+    },
+    {
+        "time": "2025-09-25 20:18:21.161425",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:18:21.507107",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:18:21.513111",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:18:21.537138",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:18:21.551287",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:18:21.578341",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:18:22.591467",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:18:22.917503",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:18:22.992399",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:18:23.004444",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:18:23.020429",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:19:40.669650",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:19:40.670658",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:19:40.687618",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 28128"
+    },
+    {
+        "time": "2025-09-25 20:19:42.687306",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:19:42.762304",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:19:42.774307",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:19:42.787308",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:19:42.801302",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:19:42.827307",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:19:43.848861",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:19:44.186285",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:19:44.261137",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:19:44.281134",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:19:44.302134",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:22:02.466004",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:22:02.467045",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:22:02.483004",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 29376"
+    },
+    {
+        "time": "2025-09-25 20:22:04.496611",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:22:04.573972",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:22:04.591980",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:22:04.604979",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:22:04.615978",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:22:04.641552",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:22:05.665132",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:22:05.861139",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:22:05.936175",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:22:05.948174",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:22:05.963173",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:22:36.712792",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:22:36.714789",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:22:36.732790",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 4920"
+    },
+    {
+        "time": "2025-09-25 20:22:38.758133",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:22:38.836758",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:22:38.848805",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:22:38.860813",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:22:38.870572",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:22:38.897573",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:22:39.925724",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:22:40.114998",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:22:40.190565",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:22:40.203163",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:22:40.220203",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:25:09.337518",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:25:09.339518",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:25:09.358519",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 920"
+    },
+    {
+        "time": "2025-09-25 20:25:11.378086",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:25:11.514729",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:25:11.515728",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:25:11.527764",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:25:11.538761",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:25:11.563900",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:25:12.582017",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:25:12.748368",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:25:12.826020",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:25:12.837019",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:25:12.853047",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:25:29.944619",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:25:29.946613",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:25:29.964577",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 29572"
+    },
+    {
+        "time": "2025-09-25 20:25:31.985938",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:25:32.064281",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:25:32.078310",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:25:32.090274",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:25:32.101274",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:25:32.126489",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:25:33.155403",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:25:33.333368",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:25:33.411718",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:25:33.423750",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:25:33.440246",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:26:13.031776",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:26:13.033775",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:26:13.049739",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 26192"
+    },
+    {
+        "time": "2025-09-25 20:26:15.063114",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:26:15.142619",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:26:15.159615",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:26:15.171649",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:26:15.182649",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:26:15.208467",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:26:16.232772",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:26:16.425737",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:26:16.500706",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:26:16.514707",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:26:16.530709",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:28:15.291818",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:28:15.293818",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:28:15.312830",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 12824"
+    },
+    {
+        "time": "2025-09-25 20:28:17.340122",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:28:18.045129",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:28:18.049133",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:28:18.064134",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:28:18.079136",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:28:18.104133",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:28:19.124610",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:28:19.472160",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:28:19.549547",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:28:19.562554",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 1, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:28:19.579327",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:29:16.733474",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:29:16.736476",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:29:16.754167",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 6612"
+    },
+    {
+        "time": "2025-09-25 20:29:18.782271",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:29:18.994788",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:29:18.997788",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:29:19.011787",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:29:19.023819",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:29:19.048790",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:29:20.074497",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:29:20.243646",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:29:20.332748",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:29:20.350786",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 1, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:29:20.370747",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:32:18.904581",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:32:18.906580",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:32:18.924580",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 21584"
+    },
+    {
+        "time": "2025-09-25 20:32:20.956800",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:32:21.038585",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:32:21.053071",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:32:21.065073",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:32:21.077074",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:32:21.102456",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:32:22.133366",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:32:22.363978",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:32:22.438754",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:32:22.451760",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 1, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:32:22.468767",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:32:58.525860",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:32:58.527902",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:32:58.544860",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 28080"
+    },
+    {
+        "time": "2025-09-25 20:33:00.561055",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:33:00.643828",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:33:00.655827",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:33:00.668339",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:33:00.680339",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:33:00.706677",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:33:01.722871",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:33:01.963880",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:33:02.038617",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:33:02.051648",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 1, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:33:02.069613",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:33:36.580134",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:33:36.582139",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:33:36.604101",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 28368"
+    },
+    {
+        "time": "2025-09-25 20:33:38.618191",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:33:38.696140",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:33:38.713136",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:33:38.726165",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:33:38.740134",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:33:38.769137",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:33:39.792912",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:33:39.961644",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:33:40.039242",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:33:40.051290",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 1, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:33:40.067087",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:34:02.600118",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:34:02.603119",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:34:02.623594",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 16300"
+    },
+    {
+        "time": "2025-09-25 20:34:04.647160",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:34:04.733705",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:34:04.748555",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:34:04.764521",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:34:04.781521",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:34:04.809791",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:34:05.835210",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:34:06.132196",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:34:06.209198",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:34:06.222194",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:34:06.240196",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:34:21.343694",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:34:21.345687",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:34:21.362687",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 14520"
+    },
+    {
+        "time": "2025-09-25 20:34:23.384992",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:34:23.459936",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:34:23.474944",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:34:23.487943",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:34:23.502956",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:34:23.528945",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:34:24.555761",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:34:24.730361",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:34:24.805870",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:34:24.821505",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:34:24.841507",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:35:59.389673",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:35:59.392613",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:35:59.411616",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 19224"
+    },
+    {
+        "time": "2025-09-25 20:36:01.419727",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:36:01.496234",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:36:01.512241",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:36:01.525824",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:36:01.539829",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:36:01.565264",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:36:02.595476",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:36:02.727480",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:36:02.803955",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:36:02.818955",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:36:02.837890",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:36:45.694861",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:36:45.697877",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:36:45.714845",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 26236"
+    },
+    {
+        "time": "2025-09-25 20:36:47.743686",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:36:47.899687",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:36:47.902691",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:36:47.915686",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:36:47.928719",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:36:47.960689",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:36:48.994339",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:36:49.224595",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:36:49.302594",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:36:49.317533",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:36:49.336030",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:48:33.019036",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:48:33.021036",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:48:33.039037",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 25552"
+    },
+    {
+        "time": "2025-09-25 20:48:35.030529",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:48:35.106532",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:48:35.124484",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:48:35.142474",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:48:35.156851",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:48:35.187854",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:48:36.215976",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:48:36.693465",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:48:36.696463",
+        "type": "DETECTED",
+        "payload": "Server [filesystem] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:48:36.716783",
+        "type": "INIT",
+        "payload": "Server [filesystem] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:48:37.746759",
+        "type": "DEBUG",
+        "payload": "Server [filesystem] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:48:37.958919",
+        "type": "ONLINE",
+        "payload": "Server [filesystem] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:48:37.961956",
+        "type": "DETECTED",
+        "payload": "Server [emoji-usage] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:48:37.983923",
+        "type": "INIT",
+        "payload": "Server [emoji-usage] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:48:39.016970",
+        "type": "DEBUG",
+        "payload": "Server [emoji-usage] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:48:40.145742",
+        "type": "ONLINE",
+        "payload": "Server [emoji-usage] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:48:40.148772",
+        "type": "DETECTED",
+        "payload": "Server [sleep_coach] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:48:40.169736",
+        "type": "INIT",
+        "payload": "Server [sleep_coach] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:48:41.200447",
+        "type": "DEBUG",
+        "payload": "Server [sleep_coach] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:48:41.349457",
+        "type": "ONLINE",
+        "payload": "Server [sleep_coach] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:48:41.352450",
+        "type": "DETECTED",
+        "payload": "Server [movie_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:48:41.375454",
+        "type": "INIT",
+        "payload": "Server [movie_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:48:42.404113",
+        "type": "DEBUG",
+        "payload": "Server [movie_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:48:43.730118",
+        "type": "ONLINE",
+        "payload": "Server [movie_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:48:43.808114",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:48:43.828114",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:48:43.850115",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:48:43.882279",
+        "type": "TOOLS",
+        "payload": "Loaded 10 tools from MCP server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:48:43.945815",
+        "type": "TOOLS",
+        "payload": "Loaded 8 tools from MCP server [emoji-usage]"
+    },
+    {
+        "time": "2025-09-25 20:48:43.963228",
+        "type": "TOOLS",
+        "payload": "Loaded 5 tools from MCP server [sleep_coach]"
+    },
+    {
+        "time": "2025-09-25 20:48:43.988812",
+        "type": "TOOLS",
+        "payload": "Loaded 6 tools from MCP server [movie_server]"
+    },
+    {
+        "time": "2025-09-25 20:50:01.178160",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Para responder a tu pregunta sobre el presidente de Guatemala en 1944 y cu\u00e1ntos hijos tuvo, necesitar\u00eda buscar informaci\u00f3n hist\u00f3rica espec\u00edfica. Sin embargo, no tengo acceso a una herramienta de b\u00fasqueda hist\u00f3rica o base de datos biogr\u00e1fica entre las herramientas disponibles que me permitir\u00eda darte esta informaci\u00f3n precisa.\\n\\nSeg\u00fan mi conocimiento general, en 1944 Guatemala experiment\u00f3 un cambio importante con la llamada \"Revoluci\u00f3n de Octubre\", cuando Juan Jos\u00e9 Ar\u00e9valo fue elegido presidente tras el derrocamiento del dictador Jorge Ubico. Sin embargo, Ar\u00e9valo asumi\u00f3 formalmente en marzo de 1945, por lo que a principios de 1944 Guatemala estaba bajo el gobierno del general Federico Ponce Vaides (quien tom\u00f3 el poder brevemente despu\u00e9s de Ubico', type='text')]"
+    },
+    {
+        "time": "2025-09-25 20:50:36.924051",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Para responder a tu pregunta sobre qui\u00e9n fue el presidente de El Salvador en 1944 y cu\u00e1ntos hijos tuvo, necesitar\u00eda acceso a una herramienta de b\u00fasqueda hist\u00f3rica o base de datos biogr\u00e1fica espec\u00edfica, pero no dispongo de tales herramientas entre las funciones disponibles.\\n\\nSeg\u00fan mi conocimiento general, en 1944 El Salvador estaba bajo la presidencia del General Maximiliano Hern\u00e1ndez Mart\u00ednez, quien gobern\u00f3 el pa\u00eds desde 1931 hasta mayo de 1944, cuando fue derrocado por un movimiento popular conocido como la \"Huelga de Brazos Ca\u00eddos\". Despu\u00e9s de su ca\u00edda, hubo un breve gobierno de transici\u00f3n liderado por Andr\u00e9s Ignacio Men\u00e9ndez, seguido por Osm\u00edn Aguirre y', type='text')]"
+    },
+    {
+        "time": "2025-09-25 20:53:04.029139",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a crear un repositorio llamado \"tierra\" con un archivo \"paises.txt\" que contendr\u00e1 los nombres de 20 pa\u00edses del mundo.\\n\\nPrimero, crear\u00e9 el directorio:', type='text'), ToolUseBlock(id='toolu_017ypjmHmMde32PAaoJbCK9p', input={'directory_path': 'tierra'}, name='create_directory', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:53:04.033131",
+        "type": "llm.tool_use",
+        "payload": "name: create_directory, args: {'directory_path': 'tierra'}"
+    },
+    {
+        "time": "2025-09-25 20:53:04.124557",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:53:04.157560",
+        "type": "TOOL",
+        "payload": "Called tool 'create_directory' on server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:53:31.896641",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a crear el archivo \"paises.txt\" con una lista de 20 pa\u00edses del mundo en el directorio \"tierra\":', type='text'), ToolUseBlock(id='toolu_01DmSGTpkX8Ave4DMgKUEjRr', input={'file_path': 'tierra/paises.txt'}, name='write_file', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:53:31.900599",
+        "type": "llm.tool_use",
+        "payload": "name: write_file, args: {'file_path': 'tierra/paises.txt'}"
+    },
+    {
+        "time": "2025-09-25 20:53:31.993824",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 3, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:53:32.014838",
+        "type": "TOOL",
+        "payload": "Called tool 'write_file' on server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:53:56.335934",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a crear el archivo \"paises.txt\" con una lista de 20 pa\u00edses del mundo:', type='text'), ToolUseBlock(id='toolu_01BTqqPQLLPf4FZ24n74xZzH', input={'file_path': 'tierra/paises.txt'}, name='write_file', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:53:56.347991",
+        "type": "llm.tool_use",
+        "payload": "name: write_file, args: {'file_path': 'tierra/paises.txt'}"
+    },
+    {
+        "time": "2025-09-25 20:53:56.443290",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 4, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:53:56.463014",
+        "type": "TOOL",
+        "payload": "Called tool 'write_file' on server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:54:26.912196",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Ahora crear\u00e9 el archivo \"paises.txt\" con una lista de 20 pa\u00edses aleatorios y sus poblaciones:', type='text'), ToolUseBlock(id='toolu_01CPtyW9ceLVNapcfBDTLmWs', input={'file_path': 'tierra/paises.txt'}, name='write_file', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:54:26.915231",
+        "type": "llm.tool_use",
+        "payload": "name: write_file, args: {'file_path': 'tierra/paises.txt'}"
+    },
+    {
+        "time": "2025-09-25 20:54:27.004795",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 5, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:54:27.034803",
+        "type": "TOOL",
+        "payload": "Called tool 'write_file' on server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:54:46.991823",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a crear el archivo \"paises.txt\" con una lista de 20 pa\u00edses aleatorios y sus poblaciones:', type='text'), ToolUseBlock(id='toolu_01DNQeu9B7w3swz4e9Pt6Ryz', input={'file_path': 'tierra/paises.txt'}, name='write_file', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:54:47.002797",
+        "type": "llm.tool_use",
+        "payload": "name: write_file, args: {'file_path': 'tierra/paises.txt'}"
+    },
+    {
+        "time": "2025-09-25 20:54:47.093061",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 6, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:54:47.113949",
+        "type": "TOOL",
+        "payload": "Called tool 'write_file' on server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:55:00.457116",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a crear el archivo vac\u00edo \"paises.txt\" en el directorio \"tierra\":', type='text'), ToolUseBlock(id='toolu_016GCYPKJzPGoEGQXs3zD8gA', input={'file_path': 'tierra/paises.txt', 'content': ''}, name='write_file', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:55:00.461154",
+        "type": "llm.tool_use",
+        "payload": "name: write_file, args: {'file_path': 'tierra/paises.txt', 'content': ''}"
+    },
+    {
+        "time": "2025-09-25 20:55:00.550043",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 7, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:55:00.584085",
+        "type": "TOOL",
+        "payload": "Called tool 'write_file' on server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:55:13.643135",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a llenar el archivo \"paises.txt\" con una lista de 20 pa\u00edses y sus poblaciones:', type='text'), ToolUseBlock(id='toolu_01VRYLTFDaQxbNKAfHU4jRn7', input={'file_path': 'tierra/paises.txt'}, name='write_file', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:55:13.648097",
+        "type": "llm.tool_use",
+        "payload": "name: write_file, args: {'file_path': 'tierra/paises.txt'}"
+    },
+    {
+        "time": "2025-09-25 20:55:13.739516",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 8, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:55:13.770607",
+        "type": "TOOL",
+        "payload": "Called tool 'write_file' on server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:55:40.336846",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a llenar el archivo \"paises.txt\" con una lista de 20 pa\u00edses diferentes y sus poblaciones:', type='text'), ToolUseBlock(id='toolu_018hg5B3Qt68hRxZ1D6fefsa', input={'file_path': 'tierra/paises.txt'}, name='write_file', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:55:40.342872",
+        "type": "llm.tool_use",
+        "payload": "name: write_file, args: {'file_path': 'tierra/paises.txt'}"
+    },
+    {
+        "time": "2025-09-25 20:55:40.436414",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 9, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:55:40.453785",
+        "type": "TOOL",
+        "payload": "Called tool 'write_file' on server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:56:14.956223",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a llenar el archivo con el texto solicitado:', type='text'), ToolUseBlock(id='toolu_016pC29SYGE1VsVxcBWFJqXd', input={'file_path': 'tierra/paises.txt', 'content': 'al meos hace esto'}, name='write_file', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:56:14.967196",
+        "type": "llm.tool_use",
+        "payload": "name: write_file, args: {'file_path': 'tierra/paises.txt', 'content': 'al meos hace esto'}"
+    },
+    {
+        "time": "2025-09-25 20:56:15.066006",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 10, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:56:15.086335",
+        "type": "TOOL",
+        "payload": "Called tool 'write_file' on server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:56:56.289180",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a buscar un emoji apropiado para expresar nerviosismo en una presentaci\u00f3n de proyecto:', type='text'), ToolUseBlock(id='toolu_01BpU87pnLnu1cn3E22Uj1Ai', input={'query': {'context': 'nervous'}}, name='get_appropriate_emoji', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:56:56.293168",
+        "type": "llm.tool_use",
+        "payload": "name: get_appropriate_emoji, args: {'query': {'context': 'nervous'}}"
+    },
+    {
+        "time": "2025-09-25 20:56:56.379369",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 11, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:56:56.452830",
+        "type": "TOOL",
+        "payload": "Called tool 'get_appropriate_emoji' on server [emoji-usage]"
+    },
+    {
+        "time": "2025-09-25 20:58:20.865026",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a buscar pel\u00edculas similares a \"Freaky Friday\" y un emoji adecuado para representarla:', type='text'), ToolUseBlock(id='toolu_01SPuwn4uoCANCtf3XjVPUyv', input={'params': {'title': 'Freaky Friday'}}, name='similar_movies_tool', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:58:20.873024",
+        "type": "llm.tool_use",
+        "payload": "name: similar_movies_tool, args: {'params': {'title': 'Freaky Friday'}}"
+    },
+    {
+        "time": "2025-09-25 20:58:20.967418",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 12, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:58:22.862482",
+        "type": "TOOL",
+        "payload": "Called tool 'similar_movies_tool' on server [movie_server]"
+    },
+    {
+        "time": "2025-09-25 20:59:08.901807",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a intentarlo nuevamente para buscar pel\u00edculas similares a \"Freaky Friday\" y un emoji adecuado:', type='text'), ToolUseBlock(id='toolu_017h1N7DqLcqTkWKrcXyDhQ8', input={'params': {'title': 'Freaky Friday'}}, name='movie_details', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 20:59:08.906823",
+        "type": "llm.tool_use",
+        "payload": "name: movie_details, args: {'params': {'title': 'Freaky Friday'}}"
+    },
+    {
+        "time": "2025-09-25 20:59:08.996883",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 13, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:59:09.057078",
+        "type": "TOOL",
+        "payload": "Called tool 'movie_details' on server [movie_server]"
+    },
+    {
+        "time": "2025-09-25 20:59:41.913420",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 20:59:41.916418",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 20:59:41.937420",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 22976"
+    },
+    {
+        "time": "2025-09-25 20:59:43.948879",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 20:59:44.029656",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 20:59:44.054656",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 20:59:44.067753",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 20:59:44.081752",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:59:44.118140",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:59:45.146023",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:59:45.369453",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:59:45.373452",
+        "type": "DETECTED",
+        "payload": "Server [filesystem] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:59:45.392453",
+        "type": "INIT",
+        "payload": "Server [filesystem] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:59:46.413318",
+        "type": "DEBUG",
+        "payload": "Server [filesystem] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:59:46.419661",
+        "type": "ONLINE",
+        "payload": "Server [filesystem] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:59:46.432666",
+        "type": "DETECTED",
+        "payload": "Server [emoji-usage] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:59:46.453669",
+        "type": "INIT",
+        "payload": "Server [emoji-usage] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:59:47.472962",
+        "type": "DEBUG",
+        "payload": "Server [emoji-usage] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:59:48.238675",
+        "type": "ONLINE",
+        "payload": "Server [emoji-usage] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:59:48.241715",
+        "type": "DETECTED",
+        "payload": "Server [sleep_coach] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:59:48.269674",
+        "type": "INIT",
+        "payload": "Server [sleep_coach] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:59:49.290528",
+        "type": "DEBUG",
+        "payload": "Server [sleep_coach] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:59:49.299339",
+        "type": "ONLINE",
+        "payload": "Server [sleep_coach] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:59:49.313382",
+        "type": "DETECTED",
+        "payload": "Server [movie_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 20:59:49.332638",
+        "type": "INIT",
+        "payload": "Server [movie_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 20:59:50.358978",
+        "type": "DEBUG",
+        "payload": "Server [movie_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 20:59:50.882436",
+        "type": "ONLINE",
+        "payload": "Server [movie_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 20:59:50.960415",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:59:50.989438",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 20:59:51.006428",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 20:59:51.031394",
+        "type": "TOOLS",
+        "payload": "Loaded 10 tools from MCP server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 20:59:51.079182",
+        "type": "TOOLS",
+        "payload": "Loaded 8 tools from MCP server [emoji-usage]"
+    },
+    {
+        "time": "2025-09-25 20:59:51.095181",
+        "type": "TOOLS",
+        "payload": "Loaded 5 tools from MCP server [sleep_coach]"
+    },
+    {
+        "time": "2025-09-25 20:59:51.117384",
+        "type": "TOOLS",
+        "payload": "Loaded 6 tools from MCP server [movie_server]"
+    },
+    {
+        "time": "2025-09-25 21:00:10.689001",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Entiendo que quieres recomendaciones de pel\u00edculas similares a \"Freaky Friday\", que es una de tus favoritas. Voy a buscar pel\u00edculas que tengan tem\u00e1ticas o elementos parecidos.', type='text'), ToolUseBlock(id='toolu_013pdbTfzRgiDwC31fE5mbHi', input={'params': {'title': 'Freaky Friday', 'limit': 15}}, name='similar_movies_tool', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 21:00:10.694992",
+        "type": "llm.tool_use",
+        "payload": "name: similar_movies_tool, args: {'params': {'title': 'Freaky Friday', 'limit': 15}}"
+    },
+    {
+        "time": "2025-09-25 21:00:10.785475",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 21:00:12.572737",
+        "type": "TOOL",
+        "payload": "Called tool 'similar_movies_tool' on server [movie_server]"
+    },
+    {
+        "time": "2025-09-25 21:00:38.768927",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Para buscar un emoji que represente el sentimiento de \"Freaky Friday\", una comedia familiar sobre el intercambio de cuerpos entre madre e hija, necesito encontrar uno que capture la combinaci\u00f3n de confusi\u00f3n, humor y el aprendizaje mutuo que caracteriza a la pel\u00edcula.', type='text'), ToolUseBlock(id='toolu_01NzhVa9abtdR4wigwV3u9At', input={'query': {'context': 'comedy'}}, name='get_appropriate_emoji', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 21:00:38.778933",
+        "type": "llm.tool_use",
+        "payload": "name: get_appropriate_emoji, args: {'query': {'context': 'comedy'}}"
+    },
+    {
+        "time": "2025-09-25 21:00:38.872786",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 3, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 21:00:38.902378",
+        "type": "TOOL",
+        "payload": "Called tool 'get_appropriate_emoji' on server [emoji-usage]"
+    },
+    {
+        "time": "2025-09-25 21:01:23.160905",
+        "type": "ASSISTANT",
+        "payload": "[TextBlock(citations=None, text='Voy a asignar un emoji que represente el sentimiento o la esencia de cada una de las pel\u00edculas recomendadas anteriormente:', type='text'), ToolUseBlock(id='toolu_01ALgRpBAUYCFq66cCs36X4m', input={'query': {'context': 'transformation'}}, name='get_appropriate_emoji', type='tool_use')]"
+    },
+    {
+        "time": "2025-09-25 21:01:23.166904",
+        "type": "llm.tool_use",
+        "payload": "name: get_appropriate_emoji, args: {'query': {'context': 'transformation'}}"
+    },
+    {
+        "time": "2025-09-25 21:01:23.265977",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 4, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 21:01:23.291724",
+        "type": "TOOL",
+        "payload": "Called tool 'get_appropriate_emoji' on server [emoji-usage]"
+    },
+    {
+        "time": "2025-09-25 21:03:01.490176",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 21:03:01.493749",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 21:03:01.515282",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 25848"
+    },
+    {
+        "time": "2025-09-25 21:03:03.537900",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 21:03:03.690434",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 21:03:03.694463",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 21:03:03.717425",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 21:03:03.732463",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 21:03:03.759116",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 21:03:04.784249",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 21:03:04.920616",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 21:03:04.924565",
+        "type": "DETECTED",
+        "payload": "Server [filesystem] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 21:03:04.944566",
+        "type": "INIT",
+        "payload": "Server [filesystem] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 21:03:05.976807",
+        "type": "DEBUG",
+        "payload": "Server [filesystem] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 21:03:06.013970",
+        "type": "ONLINE",
+        "payload": "Server [filesystem] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 21:03:06.027966",
+        "type": "DETECTED",
+        "payload": "Server [emoji-usage] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 21:03:06.048966",
+        "type": "INIT",
+        "payload": "Server [emoji-usage] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 21:03:07.088280",
+        "type": "DEBUG",
+        "payload": "Server [emoji-usage] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 21:03:08.176457",
+        "type": "ONLINE",
+        "payload": "Server [emoji-usage] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 21:03:08.180486",
+        "type": "DETECTED",
+        "payload": "Server [sleep_coach] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 21:03:08.210005",
+        "type": "INIT",
+        "payload": "Server [sleep_coach] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 21:03:09.229317",
+        "type": "DEBUG",
+        "payload": "Server [sleep_coach] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 21:03:09.334562",
+        "type": "ONLINE",
+        "payload": "Server [sleep_coach] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 21:03:09.338557",
+        "type": "DETECTED",
+        "payload": "Server [movie_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 21:03:09.362138",
+        "type": "INIT",
+        "payload": "Server [movie_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 21:03:10.388844",
+        "type": "DEBUG",
+        "payload": "Server [movie_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 21:03:11.392229",
+        "type": "ONLINE",
+        "payload": "Server [movie_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 21:03:11.472671",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 21:03:11.490673",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 21:03:11.513364",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 21:03:11.537381",
+        "type": "TOOLS",
+        "payload": "Loaded 10 tools from MCP server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 21:03:11.589138",
+        "type": "TOOLS",
+        "payload": "Loaded 8 tools from MCP server [emoji-usage]"
+    },
+    {
+        "time": "2025-09-25 21:03:11.606136",
+        "type": "TOOLS",
+        "payload": "Loaded 5 tools from MCP server [sleep_coach]"
+    },
+    {
+        "time": "2025-09-25 21:03:11.633320",
+        "type": "TOOLS",
+        "payload": "Loaded 6 tools from MCP server [movie_server]"
+    },
+    {
+        "time": "2025-09-25 22:39:34.196916",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 22:39:34.200915",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 22:39:34.223920",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 5648"
+    },
+    {
+        "time": "2025-09-25 22:39:36.268754",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 22:39:37.602732",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 22:39:37.610684",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 22:39:37.629684",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 22:39:37.647711",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 22:39:37.679478",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 22:39:38.718622",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 22:39:38.993766",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 22:39:38.997765",
+        "type": "DETECTED",
+        "payload": "Server [filesystem] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 22:39:39.021768",
+        "type": "INIT",
+        "payload": "Server [filesystem] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 22:39:40.053537",
+        "type": "DEBUG",
+        "payload": "Server [filesystem] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 22:39:40.147562",
+        "type": "ONLINE",
+        "payload": "Server [filesystem] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 22:39:40.152534",
+        "type": "DETECTED",
+        "payload": "Server [emoji-usage] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 22:39:40.175532",
+        "type": "INIT",
+        "payload": "Server [emoji-usage] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 22:39:41.200780",
+        "type": "DEBUG",
+        "payload": "Server [emoji-usage] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 22:39:42.081886",
+        "type": "ONLINE",
+        "payload": "Server [emoji-usage] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 22:39:42.086884",
+        "type": "DETECTED",
+        "payload": "Server [sleep_coach] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 22:39:42.110927",
+        "type": "INIT",
+        "payload": "Server [sleep_coach] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 22:39:43.135985",
+        "type": "DEBUG",
+        "payload": "Server [sleep_coach] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 22:39:43.207644",
+        "type": "ONLINE",
+        "payload": "Server [sleep_coach] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 22:39:43.223638",
+        "type": "DETECTED",
+        "payload": "Server [movie_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 22:39:43.269664",
+        "type": "INIT",
+        "payload": "Server [movie_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 22:39:44.295601",
+        "type": "DEBUG",
+        "payload": "Server [movie_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 22:39:45.059439",
+        "type": "ONLINE",
+        "payload": "Server [movie_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 22:39:45.163278",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 22:39:45.168278",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 22:39:45.186866",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 22:39:45.214441",
+        "type": "TOOLS",
+        "payload": "Loaded 10 tools from MCP server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 22:39:45.273348",
+        "type": "TOOLS",
+        "payload": "Loaded 8 tools from MCP server [emoji-usage]"
+    },
+    {
+        "time": "2025-09-25 22:39:45.292348",
+        "type": "TOOLS",
+        "payload": "Loaded 5 tools from MCP server [sleep_coach]"
+    },
+    {
+        "time": "2025-09-25 22:39:45.318337",
+        "type": "TOOLS",
+        "payload": "Loaded 6 tools from MCP server [movie_server]"
+    },
+    {
+        "time": "2025-09-25 22:46:18.316718",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 22:46:18.321721",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 22:46:18.343685",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 28916"
+    },
+    {
+        "time": "2025-09-25 22:46:20.395320",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 22:46:21.150474",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 22:46:21.155474",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 22:46:21.171352",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 22:46:21.186351",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 22:46:21.214356",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 22:46:22.246152",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 22:46:22.553527",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 22:46:22.558531",
+        "type": "DETECTED",
+        "payload": "Server [filesystem] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 22:46:22.582252",
+        "type": "INIT",
+        "payload": "Server [filesystem] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 22:46:23.639304",
+        "type": "DEBUG",
+        "payload": "Server [filesystem] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 22:46:23.746581",
+        "type": "ONLINE",
+        "payload": "Server [filesystem] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 22:46:23.756546",
+        "type": "DETECTED",
+        "payload": "Server [emoji-usage] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 22:46:23.780581",
+        "type": "INIT",
+        "payload": "Server [emoji-usage] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 22:46:24.814068",
+        "type": "DEBUG",
+        "payload": "Server [emoji-usage] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 22:46:26.254153",
+        "type": "ONLINE",
+        "payload": "Server [emoji-usage] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 22:46:26.258152",
+        "type": "DETECTED",
+        "payload": "Server [sleep_coach] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 22:46:26.281151",
+        "type": "INIT",
+        "payload": "Server [sleep_coach] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 22:46:27.314276",
+        "type": "DEBUG",
+        "payload": "Server [sleep_coach] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 22:46:27.332707",
+        "type": "ONLINE",
+        "payload": "Server [sleep_coach] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 22:46:27.348745",
+        "type": "DETECTED",
+        "payload": "Server [movie_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 22:46:27.369708",
+        "type": "INIT",
+        "payload": "Server [movie_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 22:46:28.414549",
+        "type": "DEBUG",
+        "payload": "Server [movie_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 22:46:29.211927",
+        "type": "ONLINE",
+        "payload": "Server [movie_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 22:46:29.315384",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 22:46:29.325346",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 22:46:29.349774",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 22:46:29.377072",
+        "type": "TOOLS",
+        "payload": "Loaded 10 tools from MCP server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 22:46:29.426873",
+        "type": "TOOLS",
+        "payload": "Loaded 8 tools from MCP server [emoji-usage]"
+    },
+    {
+        "time": "2025-09-25 22:46:29.444883",
+        "type": "TOOLS",
+        "payload": "Loaded 5 tools from MCP server [sleep_coach]"
+    },
+    {
+        "time": "2025-09-25 22:46:29.475945",
+        "type": "TOOLS",
+        "payload": "Loaded 6 tools from MCP server [movie_server]"
+    },
+    {
+        "time": "2025-09-25 23:29:53.571408",
+        "type": "DETECTED",
+        "payload": "Server [remote_trivial] of transport type 'stdio' with ssh command"
+    },
+    {
+        "time": "2025-09-25 23:29:53.588469",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] creating raw subprocess..."
+    },
+    {
+        "time": "2025-09-25 23:29:53.632811",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process created, PID: 3096"
+    },
+    {
+        "time": "2025-09-25 23:29:55.670944",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] SSH process is alive, testing communication..."
+    },
+    {
+        "time": "2025-09-25 23:29:56.954589",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 1, 'result': {'protocolVersion': '2024-11-05', 'capabilities': {'experimental': {}, 'prompts': {'listChanged': False}, 'resources': {'subscribe': False, 'listChanged': False}, 'tools': {'listChanged': True}}, 'serverInfo': {'name': 'Trivial', 'version': '1.14.1'}}}"
+    },
+    {
+        "time": "2025-09-25 23:29:56.974931",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] initialization successful"
+    },
+    {
+        "time": "2025-09-25 23:29:57.039317",
+        "type": "ONLINE",
+        "payload": "Server [remote_trivial] is online and ready for calls!"
+    },
+    {
+        "time": "2025-09-25 23:29:57.112069",
+        "type": "DETECTED",
+        "payload": "Server [git_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 23:29:57.184953",
+        "type": "INIT",
+        "payload": "Server [git_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 23:29:58.229817",
+        "type": "DEBUG",
+        "payload": "Server [git_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 23:29:59.843520",
+        "type": "ONLINE",
+        "payload": "Server [git_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 23:29:59.851618",
+        "type": "DETECTED",
+        "payload": "Server [filesystem] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 23:29:59.890439",
+        "type": "INIT",
+        "payload": "Server [filesystem] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 23:30:00.927885",
+        "type": "DEBUG",
+        "payload": "Server [filesystem] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 23:30:02.379060",
+        "type": "ONLINE",
+        "payload": "Server [filesystem] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 23:30:02.391010",
+        "type": "DETECTED",
+        "payload": "Server [emoji-usage] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 23:30:02.452873",
+        "type": "INIT",
+        "payload": "Server [emoji-usage] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 23:30:03.513563",
+        "type": "DEBUG",
+        "payload": "Server [emoji-usage] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 23:30:06.309908",
+        "type": "ONLINE",
+        "payload": "Server [emoji-usage] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 23:30:06.317905",
+        "type": "DETECTED",
+        "payload": "Server [sleep_coach] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 23:30:06.358718",
+        "type": "INIT",
+        "payload": "Server [sleep_coach] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 23:30:07.392291",
+        "type": "DEBUG",
+        "payload": "Server [sleep_coach] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 23:30:09.137532",
+        "type": "ONLINE",
+        "payload": "Server [sleep_coach] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 23:30:09.149378",
+        "type": "DETECTED",
+        "payload": "Server [movie_server] of transport type 'stdio'"
+    },
+    {
+        "time": "2025-09-25 23:30:09.204512",
+        "type": "INIT",
+        "payload": "Server [movie_server] client session set up, now waiting to initialize"
+    },
+    {
+        "time": "2025-09-25 23:30:10.260378",
+        "type": "DEBUG",
+        "payload": "Server [movie_server] starting initialization..."
+    },
+    {
+        "time": "2025-09-25 23:30:13.226754",
+        "type": "ONLINE",
+        "payload": "Server [movie_server] is online and initialized!"
+    },
+    {
+        "time": "2025-09-25 23:30:13.334333",
+        "type": "DEBUG",
+        "payload": "Server [remote_trivial] response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 23:30:13.385502",
+        "type": "TOOLS",
+        "payload": "Failed to get tools from SSH server [remote_trivial]: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}"
+    },
+    {
+        "time": "2025-09-25 23:30:13.442979",
+        "type": "TOOLS",
+        "payload": "Loaded 13 tools from MCP server [git_server]"
+    },
+    {
+        "time": "2025-09-25 23:30:13.512103",
+        "type": "TOOLS",
+        "payload": "Loaded 10 tools from MCP server [filesystem]"
+    },
+    {
+        "time": "2025-09-25 23:30:13.626688",
+        "type": "TOOLS",
+        "payload": "Loaded 8 tools from MCP server [emoji-usage]"
+    },
+    {
+        "time": "2025-09-25 23:30:13.661197",
+        "type": "TOOLS",
+        "payload": "Loaded 5 tools from MCP server [sleep_coach]"
+    },
+    {
+        "time": "2025-09-25 23:30:13.716722",
+        "type": "TOOLS",
+        "payload": "Loaded 6 tools from MCP server [movie_server]"
     }
 ]

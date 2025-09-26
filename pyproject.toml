@@ -5,10 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "aiohttp>=3.12.15",
     "anthropic>=0.66.0",
+    "fastmcp>=2.12.3",
     "gitpython>=3.1.45",
     "importlib>=1.0.4",
     "mcp[cli]>=1.13.1",
     "pandas>=2.3.2",
     "requests>=2.32.5",
+    "streamlit>=1.50.0",
 ]

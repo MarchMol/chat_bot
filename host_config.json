@@ -1,16 +1,22 @@
 {
     "servers": [
         {
-            "name": "remote_echo",
-            "command": "ssh",
+            "name": "remote_trivial",
+            "transport": "stdio",
+            "command": "ssh", 
             "args": [
-                "-i",
-                "/home/jps/.ssh/id_gcp",
+                "-i", "C:/Users/JM/Documents/Redes/chat_bot/keys/mcp_server_key",
+                "-o", "LogLevel=ERROR",
+                "-o", "StrictHostKeyChecking=no",
+                "-o", "BatchMode=yes",
                 "-T",
-                "sol22102@34.173.88.4",
-                "/home/sol22102/remote-echo-server/RemoteServerMCP/.venv/bin/python",
-                "/home/sol22102/remote-echo-server/RemoteServerMCP/server.py"
-            ]
+                "goawhg@34.132.232.243",
+                "/home/goawhg/run_server.sh"
+            ],
+            "env":{
+                "PYTHONUNBUFFERED":"1"
+            }
+      
         },
         {
             "name": "git_server",

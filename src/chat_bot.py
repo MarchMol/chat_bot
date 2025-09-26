@@ -61,6 +61,7 @@ class Chat():
                 max_tokens=MAX_TOKENS,
             )
             self.messages.append({"role": "assistant", "content": resp.content})
+            self.mcp_host.log("ASSISTANT", f"{resp.content}")
             tool_uses = [c for c in resp.content if getattr(c, "type", "") == "tool_use"]
             if tool_uses:
                 tool_results = {}
@@ -119,6 +120,8 @@ class Chat():
                 user_input = raw.strip() # Clean spaces
                 if (user_input in COMMANDS):
                     handle_commands(user_input)
+                    if user_input == "-t":
+                        print(f"Tools disponibles: {[tool['name'] for tool in self.mcp_host.tools]}")
                     continue
                 if (user_input.startswith("-q" )):
                     prompt = user_input[2:].strip()
