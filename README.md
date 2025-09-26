@@ -1,25 +1,27 @@
-# Emoji Usage Multi-Server Chatbot Platform
+# Multi-Server Chatbot Platform
 
-This project is a modular, multi-server chatbot platform focused on emoji usage analysis and interpretation. It leverages multiple microservices (MCP servers) to provide tools for querying emoji usage data, interpreting emoji context, and interacting with large language models (LLMs) such as Anthropic's Claude.
+This project is a modular, multi-server chatbot platform designed for the implementation of local and remote Model Context Protocol servers in tandem with a Claude LLM to provide a natural language ChatBot with access to predefined tools.
+
+---
 
 ## Table of Contents
 
-- Features
-- Project Structure
-- Installation
-- Configuration
-- Usage
-- MCP Servers
-- Development
-- Logging
-- License
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [MCP Servers](#mcp-servers)
+- [Development](#development)
+- [Logging](#logging)
+- [License](#license)
 
 ---
 
 ## Features
 
-- **Multi-server architecture:** Easily add or remove microservices for different NLP or data tasks.
-- **Emoji usage analysis:** Query emoji context, platform, gender, and popularity from a dataset.
+- **Multi-server architecture:** Easily add or remove MCP for different data tasks.
+- **Emoji usage analysis:** Custom made MCP server to analyze and predict emoji usage patterns.
 - **LLM integration:** Interact with Anthropic's Claude via the command line.
 - **Extensible tools:** Expose and list available tools from all running servers.
 - **Logging:** All server actions and logs are stored in JSONL format.
@@ -30,19 +32,17 @@ This project is a modular, multi-server chatbot platform focused on emoji usage 
 
 ```
 .
-├── chat_bot.py                # Main CLI chatbot interface
-├── mcp_host.py                # MCPHost: manages server processes
-├── host_config.json           # Configuration for MCP servers
-├── mcp_servers/               # Directory for all MCP servers
-│   └── emoji-use-mcp/         # Emoji usage analysis server
-│       ├── server.py          # MCP server exposing emoji tools
-│       ├── resources.py       # Data processing and analysis logic
-│       ├── model.py           # Pydantic models for emoji usage
-│       └── data/              # Emoji usage dataset (CSV)
-├── logs/
-│   └── mcp-log.jsonl          # Log file for server actions
-├── README.md                  # This file
-└── ...
+├── src
+│   ├── chat_bot.py # Main CLI chatbot  
+│   └── mcp_host.py # MCP server manager
+├── mcp_servers
+│   ├── emoji-use-mcp
+│   ├── filesystem
+│   ├── github
+│   └── (Other mcp)
+├── host_config.json # MCP server configurations
+└── README.md
+
 ```
 
 ---
@@ -57,12 +57,13 @@ This project is a modular, multi-server chatbot platform focused on emoji usage 
 
 2. **Install Python dependencies:**
    ```sh
-   pip install -r requirements.txt
+   python3 -m venv .venv
+   source .venv/bin/activate # Linux/Mac
+   .venv\Scripts\activate # Windows
    ```
 
 3. **Set up environment variables:**
    - Copy `.env.example` to `.env` and fill in your Anthropic API key and model name.
-
 ---
 
 ## Configuration
@@ -73,10 +74,12 @@ This project is a modular, multi-server chatbot platform focused on emoji usage 
   {
     "servers": [
       {
-        "name": "emoji-use-mcp",
-        "command": "python",
-        "args": ["mcp_servers/emoji-use-mcp/server.py"]
-      }
+        "name": <name>,
+        "command": <command>,
+        "args": [<arg1>, <arg2>, ...],
+        "transport": "stdio"
+      },
+      ...
     ]
   }
   ```
@@ -95,7 +98,7 @@ This project is a modular, multi-server chatbot platform focused on emoji usage 
 ### Start the Host and Servers
 
 ```sh
-python chat_bot.py
+python src/chat_bot.py
 ```
 
 This will:
@@ -117,24 +120,10 @@ ChatBot > The most common context for 😂 is "funny" or "laughter".
 ---
 
 ## MCP Servers
-
-### Emoji Usage MCP Server
-
-Located at `mcp_servers/emoji-use-mcp/server.py`.
-
-**Exposed Tools:**
-- `get_describers`: List possible emoji describers.
-- `get_possible_contexts`: List possible emoji contexts.
-- `get_possible_platforms`: List possible platforms.
-- `is_valid_emoji`: Validate if an emoji exists in the dataset.
-- `get_context_from_emoji`: Get likely context for an emoji.
-- `get_platform_from_emoji`: Get likely platform for an emoji.
-- `get_gender_from_emoji`: Get likely gender for an emoji.
-- `get_appropriate_emoji`: Suggest emojis for a given context.
-
-**Data:**  
-Uses a CSV dataset at `mcp_servers/emoji-use-mcp/data/emoji_usage_dataset.csv`.
-
+- **emoji-use-mcp:** Analyzes emoji usage patterns.
+- **filesystem:** Interact with the local filesystem.
+- **github:** Interact with GitHub repositories.
+- **(Other MCP servers):** Add your own MCP servers as needed.
 ---
 
 ## Development
@@ -152,13 +141,3 @@ Uses a CSV dataset at `mcp_servers/emoji-use-mcp/data/emoji_usage_dataset.csv`.
 ## Logging
 
 All server actions and logs are written to `logs/mcp-log.jsonl` in JSON format, including timestamps and message types.
-
----
-
-## License
-
-MIT License (or specify your license here)
-
----
-
-**For more details, see the code in each module or contact the project maintainer.**
